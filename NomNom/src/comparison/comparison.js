@@ -2,8 +2,8 @@ import Table from "./table";
 import React, { useState } from 'react';
 import './comparison.css'
 
-const DOG_FOOD = [{ name: 'Blue Buffalo ® Wilderness ™ Chicken', minProtein: 34, minFat: 15, calorie: 3599, protein: 99, fat: 44, carbs: 59 }, { name: 'Blue Buffalo ® Wilderness ™ Duck', minProtein: 34, minFat: 15, calorie: 3596, protein: 99, fat: 44, carbs: 79 }, { name: 'Blue Buffalo ® Wilderness ™ Salmon', minProtein: 34, minFat: 15, calorie: 3592, protein: 99, fat: 45, carbs: 79 }];
-const NOM_FOOD = [{ name: 'Beef Mash', protein: 77, fat: 40, carbs: 111 }, { name: 'Chicken Cuisine', protein: 80, fat: 56, carbs: 71 }, { name: 'Turkey Far', protein: 78, fat: 41, carbs: 109 }, { name: 'Pork Potluck', protein: 76, fat: 48, carbs: 93 }];
+const DOG_FOOD = [{ name: 'Blue Buffalo ® Wilderness ™ Chicken', minProtein: 34, minFat: 15, calorie: 3599, protein: 99, fat: 44, carbs: 59, img_name: 'blue_buffalo_chicken.jpeg' }, { name: 'Blue Buffalo ® Wilderness ™ Duck', minProtein: 34, minFat: 15, calorie: 3596, protein: 99, fat: 44, carbs: 79, img_name: 'blue_buffalo_duck.jpeg' }, { name: 'Blue Buffalo ® Wilderness ™ Salmon', minProtein: 34, minFat: 15, calorie: 3592, protein: 99, fat: 45, carbs: 79, img_name: 'blue_buffalo_salmon.jpeg' }];
+const NOM_FOOD = [{ name: 'Beef Mash', protein: 77, fat: 40, carbs: 111, img_name: 'bowl_beef_square.png' }, { name: 'Chicken Cuisine', protein: 80, fat: 56, carbs: 71, img_name: 'bowl_chicken_square.png' }, { name: 'Turkey Far', protein: 78, fat: 41, carbs: 109, img_name: 'bowl_turkey_square.png' }, { name: 'Pork Potluck', protein: 76, fat: 48, carbs: 93, img_name: 'bowl_pork_square.png' }];
 
 function Comparison() {
   const [dogFoodIdx, setDogFoodIdx] = useState(0);
@@ -16,8 +16,8 @@ function Comparison() {
       <div>
         Percentages on commercial pet food labels are not reliable because they are based on weight, not calories, and the values are affected by many factors, including moisture, fiber and minerals. Use this calculator to get a more accurate picture of how another pet food brand compares with Nom Nom.<br/>
 
-        <span style={{'font-weight': 'bold'}}>Dr. Caitlyn Getty</span><br/>
-        <span style={{'font-style': 'italic'}}>Scientific Affairs Veterinarian</span><br/>
+        <span style={{fontWeight: 'bold'}}>Dr. Caitlyn Getty</span><br/>
+        <span style={{fontStyle: 'italic'}}>Scientific Affairs Veterinarian</span><br/>
       </div>
 
       <div className='comparison-select'>
