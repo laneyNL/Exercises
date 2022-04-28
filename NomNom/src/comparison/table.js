@@ -10,13 +10,9 @@ function Table({dogFood, nomFood}) {
 
       <div className='table-row'> 
 
-        <div className='table-item dog-food'>
-          <TableItem food={dogFood} isNom={false}/>
-        </div>
+        <TableItem className='table-item dog-food' food={dogFood} isNom={false}/>
 
-        <div className='table-item'>
-          <TableItem food={nomFood} isNom={true}/>
-        </div>
+        <TableItem className='table-item' food={nomFood} isNom={true}/>
 
       </div>
 

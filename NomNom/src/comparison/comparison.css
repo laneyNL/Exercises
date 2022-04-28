@@ -1,10 +1,16 @@
 .comparison {
-  max-width: 1250px;
   margin: 3%;
   margin: 20px;
 }
 
-.comparison-select-options {
+.comparison-select {
   display: flex;
   justify-content: center;
+  margin: auto;
+  width: 1250px;
+}
+
+.comparison-select-options{
+  width: 600px;
+  text-align: left;
 }

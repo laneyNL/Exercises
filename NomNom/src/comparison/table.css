@@ -1,18 +1,23 @@
+.table {
+  margin: auto;
+  width: 1250px;
+}
 
 .table-row {
   display: flex;
   justify-content: center;
   margin: 20px;
+  
 }
 
 .table-item {
+  width: 600px;
   padding: 20px;
 }
 
 .table-item.dog-food {
   border-right: 1px solid gray;
 }
-
 
 .table-item-food-image{
   width: 240px;

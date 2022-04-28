@@ -18,11 +18,11 @@ function Comparison() {
 
         <span style={{'font-weight': 'bold'}}>Dr. Caitlyn Getty</span><br/>
         <span style={{'font-style': 'italic'}}>Scientific Affairs Veterinarian</span><br/>
-        </div>
+      </div>
 
-      <div className='comparison-select-options'>
+      <div className='comparison-select'>
 
-        <div>
+        <div className='comparison-select-options'>
           <p>Name of dog food brand</p>
           <select onChange={(e) => setDogFoodIdx(e.currentTarget.value)}>
             <option value={0}>{DOG_FOOD[0].name}</option>
@@ -31,7 +31,7 @@ function Comparison() {
           </select>
         </div>
 
-        <div>
+        <div className='comparison-select-options'>
           <p>Compare with Nom Nom</p>
           <select onChange={(e) => setNomFoodIdx(e.currentTarget.value)}>
             <option value={0}>{NOM_FOOD[0].name}</option>
