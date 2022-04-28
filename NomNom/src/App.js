@@ -1,5 +1,5 @@
 import './App.css';
-import Comparison from './comparison/comparion';
+import Comparison from './comparison/comparison';
 
 function App() {
   return (
