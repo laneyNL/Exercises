@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Exercises/static/css/main.5c03af43.css",
+    "main.js": "/Exercises/static/js/main.22c8389e.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Exercises/static/js/787.28cb0dcd.chunk.js",
+    "static/media/bowl_pork_square.png": "/Exercises/static/media/bowl_pork_square.6bb56a40fec84d65a7d8.png",
+    "static/media/bowl_turkey_square.png": "/Exercises/static/media/bowl_turkey_square.b74d6b7e7985255a3115.png",
+    "static/media/bowl_chicken_square.png": "/Exercises/static/media/bowl_chicken_square.29141b6c32c35a4209b1.png",
+    "static/media/bowl_beef_square.png": "/Exercises/static/media/bowl_beef_square.d5a8853672cc0c522939.png",
+    "static/media/blue_buffalo_chicken.jpeg": "/Exercises/static/media/blue_buffalo_chicken.8636cd99f35ef954dcba.jpeg",
+    "static/media/blue_buffalo_salmon.jpeg": "/Exercises/static/media/blue_buffalo_salmon.13b62a7dfd9689b471b4.jpeg",
+    "static/media/blue_buffalo_duck.jpeg": "/Exercises/static/media/blue_buffalo_duck.9a458a2556b9e76d48bd.jpeg",
+    "index.html": "/Exercises/index.html",
+    "main.5c03af43.css.map": "/Exercises/static/css/main.5c03af43.css.map",
+    "main.22c8389e.js.map": "/Exercises/static/js/main.22c8389e.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Exercises/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c03af43.css",
+    "static/js/main.22c8389e.js"
+  ]
+}
