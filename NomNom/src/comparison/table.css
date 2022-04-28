@@ -1,0 +1,25 @@
+
+.table-row {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.table-item {
+  padding: 20px;
+}
+
+.table-item.dog-food {
+  border-right: 1px solid gray;
+}
+
+
+.table-item-food-image{
+  width: 240px;
+  height: 250px;
+  background-color: gray;
+}
+
+.table-item-macros {
+  text-align: left;
+}
